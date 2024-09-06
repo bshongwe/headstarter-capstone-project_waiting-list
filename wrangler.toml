@@ -1,0 +1,11 @@
+name = "waitlist"
+type = "javascript"
+
+account_id = "858123eef97c7fb081583b22ce34e7e1"
+workers_dev = true
+
+# Add your Cloudflare zone ID and route if you plan to deploy to a specific domain:
+# zone_id = "YOUR_ZONE_ID"
+# routes = [
+#   "https://your-domain.com/*"
+# ]
