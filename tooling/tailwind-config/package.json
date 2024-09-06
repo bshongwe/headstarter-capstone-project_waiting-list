@@ -1,0 +1,36 @@
+{
+  "name": "@headstarter-capstone-project_waiting-list/tailwind-config",
+  "private": true,
+  "version": "0.1.0",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "postcss.js"
+  ],
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules",
+    "lint": "eslint ",
+    "format": "prettier --check '**/*.{ts,json}' ",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.38",
+    "tailwindcss": "3.4.3"
+  },
+  "devDependencies": {
+    "@headstarter-capstone-project_waiting-list/eslint-config": "workspace:*",
+    "@headstarter-capstone-project_waiting-list/prettier-config": "workspace:*",
+    "@headstarter-capstone-project_waiting-list/typescript-config": "workspace:*",
+    "eslint": "8.57.0",
+    "prettier": "3.2.5",
+    "typescript": "5.4.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@headstarter-capstone-project_waiting-list/eslint-config/base"
+    ]
+  },
+  "prettier": "@headstarter-capstone-project_waiting-list/prettier-config"
+}

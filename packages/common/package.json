@@ -1,0 +1,42 @@
+{
+  "name": "@headstarter-capstone-project_waiting-list/common",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./resend": "./src/email.ts",
+    "./MagicLinkEmail": "./src/emails/magic-link-email.tsx",
+    "./subscriptions": "./src/subscriptions.ts",
+    "./env": "./src/env.mjs"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "src/*"
+      ]
+    }
+  },
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules",
+    "format": "prettier --check '**/*.{mjs,ts,json}' "
+  },
+  "dependencies": {
+    "@headstarter-capstone-project_waiting-list/ui": "workspace:*",
+    "resend": "2.1.0"
+  },
+  "devDependencies": {
+    "@headstarter-capstone-project_waiting-list/eslint-config": "workspace:*",
+    "@headstarter-capstone-project_waiting-list/prettier-config": "workspace:*",
+    "@headstarter-capstone-project_waiting-list/typescript-config": "workspace:*",
+    "eslint": "8.57.0",
+    "prettier": "3.2.5",
+    "typescript": "5.4.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@headstarter-capstone-project_waiting-list/eslint-config/base"
+    ]
+  },
+  "prettier": "@headstarter-capstone-project_waiting-list/prettier-config"
+}
