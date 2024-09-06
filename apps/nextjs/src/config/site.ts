@@ -1,9 +1,9 @@
 export const siteConfig = {
   name: "Bunny-Ai",
-  description: "We provide an easier way to build saas service in production",
-  url: "https://github.com/bshongwe/headstarter-capstone-project_waiting-list",
+  description: "Your Ai buddy",
+  url: "https://github.com/bshongwe",
   ogImage: "",
   links: {
-    github: "https://github.com/bshongwe/headstarter-capstone-project_waiting-list",
+    github: "https://github.com/bshongwe",
   },
 };

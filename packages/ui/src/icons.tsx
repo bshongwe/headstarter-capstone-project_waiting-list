@@ -64,7 +64,7 @@ export const Nextjs: Icon = (props) => (
   </svg>
 );
 
-export const Bunny-Ai: Icon = (props) => (
+export const Saasfly: Icon = (props) => (
   <svg
     {...props}
     width="24.000000pt"

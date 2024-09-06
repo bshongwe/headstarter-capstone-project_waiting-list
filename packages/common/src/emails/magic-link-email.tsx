@@ -11,7 +11,7 @@ import {
   Text,
 } from "@react-email/components";
 
-import * as Icons from "@headstarter-capstone-project_waiting-list/ui/icons";
+import * as Icons from "@saasfly/ui/icons";
 
 interface MagicLinkEmailProps {
   actionUrl: string;
@@ -59,7 +59,7 @@ export const MagicLinkEmail = ({
             </Text>
           ) : null}
           <Hr className="my-4 border-t-2 border-gray-300" />
-          <Text className="text-sm text-gray-600">bunny-ai.io</Text>
+          <Text className="text-sm text-gray-600">saasfly.io</Text>
         </Container>
       </Body>
     </Tailwind>

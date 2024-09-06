@@ -1,1 +1,1 @@
-module.exports = require("@headstarter-capstone-project_waiting-list/tailwind-config/postcss");
+module.exports = require("@saasfly/tailwind-config/postcss");

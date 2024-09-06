@@ -1,4 +1,4 @@
-import { cn } from "@headstarter-capstone-project_waiting-list/ui";
+import { cn } from "@saasfly/ui";
 
 interface CalloutProps {
   icon?: string;

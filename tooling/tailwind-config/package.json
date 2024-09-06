@@ -1,5 +1,5 @@
 {
-  "name": "@headstarter-capstone-project_waiting-list/tailwind-config",
+  "name": "@saasfly/tailwind-config",
   "private": true,
   "version": "0.1.0",
   "main": "index.ts",
@@ -19,9 +19,9 @@
     "tailwindcss": "3.4.3"
   },
   "devDependencies": {
-    "@headstarter-capstone-project_waiting-list/eslint-config": "workspace:*",
-    "@headstarter-capstone-project_waiting-list/prettier-config": "workspace:*",
-    "@headstarter-capstone-project_waiting-list/typescript-config": "workspace:*",
+    "@saasfly/eslint-config": "workspace:*",
+    "@saasfly/prettier-config": "workspace:*",
+    "@saasfly/typescript-config": "workspace:*",
     "eslint": "8.57.0",
     "prettier": "3.2.5",
     "typescript": "5.4.5"
@@ -29,8 +29,8 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@headstarter-capstone-project_waiting-list/eslint-config/base"
+      "@saasfly/eslint-config/base"
     ]
   },
-  "prettier": "@headstarter-capstone-project_waiting-list/prettier-config"
+  "prettier": "@saasfly/prettier-config"
 }

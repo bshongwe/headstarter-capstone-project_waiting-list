@@ -1,5 +1,5 @@
 {
-  "extends": "@headstarter-capstone-project_waiting-list/typescript-config/base.json",
+  "extends": "@saasfly/typescript-config/base.json",
   "compilerOptions": {
     "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
   },

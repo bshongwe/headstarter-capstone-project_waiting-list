@@ -1,5 +1,5 @@
 {
-  "name": "@headstarter-capstone-project_waiting-list/ui",
+  "name": "@saasfly/ui",
   "private": true,
   "version": "0.1.0",
   "typesVersions": {
@@ -61,10 +61,10 @@
     "three-globe": "2.31.0"
   },
   "devDependencies": {
-    "@headstarter-capstone-project_waiting-list/eslint-config": "workspace:*",
-    "@headstarter-capstone-project_waiting-list/prettier-config": "workspace:*",
-    "@headstarter-capstone-project_waiting-list/typescript-config": "workspace:*",
-    "@headstarter-capstone-project_waiting-list/tailwind-config": "workspace:*",
+    "@saasfly/eslint-config": "workspace:*",
+    "@saasfly/prettier-config": "workspace:*",
+    "@saasfly/typescript-config": "workspace:*",
+    "@saasfly/tailwind-config": "workspace:*",
     "@types/react": "18.2.77",
     "@tanstack/react-table": "8.15.3",
     "date-fns": "3.6.0",
@@ -78,12 +78,12 @@
     "tailwindcss-animate": "1.0.7",
     "typescript": "5.4.5"
   },
-  "prettier": "@headstarter-capstone-project_waiting-list/prettier-config",
+  "prettier": "@saasfly/prettier-config",
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@headstarter-capstone-project_waiting-list/eslint-config/base",
-      "@headstarter-capstone-project_waiting-list/eslint-config/react"
+      "@saasfly/eslint-config/base",
+      "@saasfly/eslint-config/react"
     ]
   },
   "exports": {

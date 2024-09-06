@@ -3,14 +3,14 @@
 import * as React from "react";
 import { useTheme } from "next-themes";
 
-import { Button } from "@headstarter-capstone-project_waiting-list/ui/button";
+import { Button } from "@saasfly/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@headstarter-capstone-project_waiting-list/ui/dropdown-menu";
-import * as Icons from "@headstarter-capstone-project_waiting-list/ui/icons";
+} from "@saasfly/ui/dropdown-menu";
+import * as Icons from "@saasfly/ui/icons";
 
 export function ModeToggle() {
   const { setTheme } = useTheme();

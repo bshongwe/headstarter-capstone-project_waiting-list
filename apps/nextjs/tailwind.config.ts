@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-import baseConfig from "@headstarter-capstone-project_waiting-list/tailwind-config";
+import baseConfig from "@saasfly/tailwind-config";
 
 export default {
   content: [...baseConfig.content, "../../packages/ui/src/**/*.{ts,tsx}"],

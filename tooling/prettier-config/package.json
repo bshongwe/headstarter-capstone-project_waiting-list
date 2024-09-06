@@ -1,5 +1,5 @@
 {
-  "name": "@headstarter-capstone-project_waiting-list/prettier-config",
+  "name": "@saasfly/prettier-config",
   "private": true,
   "version": "0.1.0",
   "main": "index.mjs",
@@ -14,8 +14,8 @@
     "prettier-plugin-tailwindcss": "0.5.13"
   },
   "devDependencies": {
-    "@headstarter-capstone-project_waiting-list/typescript-config": "workspace:*",
+    "@saasfly/typescript-config": "workspace:*",
     "typescript": "5.4.5"
   },
-  "prettier": "@headstarter-capstone-project_waiting-list/prettier-config"
+  "prettier": "@saasfly/prettier-config"
 }

@@ -2,8 +2,8 @@ import * as React from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 
-import { cn } from "@headstarter-capstone-project_waiting-list/ui";
-import * as Icons from "@headstarter-capstone-project_waiting-list/ui/icons";
+import { cn } from "@saasfly/ui";
+import * as Icons from "@saasfly/ui/icons";
 
 import { siteConfig } from "~/config/site";
 import { useLockBody } from "~/hooks/use-lock-body";
@@ -32,7 +32,7 @@ export function MobileNav({ items, children }: MobileNavProps) {
     >
       <div className="relative z-20 grid gap-6 rounded-md bg-popover p-4 text-popover-foreground shadow-md">
         <Link href="/" className="flex items-center space-x-2">
-          <Icons.Bunny-Ai className="h-8 w-8" fill={logoColor} />
+          <Icons.Saasfly className="h-8 w-8" fill={logoColor} />
           <span className="font-bold">{siteConfig.name}</span>
         </Link>
         <nav className="grid grid-flow-row auto-rows-max text-sm">

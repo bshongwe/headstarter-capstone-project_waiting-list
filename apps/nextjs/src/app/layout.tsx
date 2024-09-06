@@ -3,8 +3,8 @@ import localFont from "next/font/local";
 
 import "~/styles/globals.css";
 
-import { cn } from "@headstarter-capstone-project_waiting-list/ui";
-import { Toaster } from "@headstarter-capstone-project_waiting-list/ui/toaster";
+import { cn } from "@saasfly/ui";
+import { Toaster } from "@saasfly/ui/toaster";
 
 import { TailwindIndicator } from "~/components/tailwind-indicator";
 import { ThemeProvider } from "~/components/theme-provider";
@@ -38,10 +38,10 @@ export const metadata = {
   ],
   authors: [
     {
-      name: "Bunny-Ai",
+      name: "Saasfly",
     },
   ],
-  creator: "Bunny-Ai",
+  creator: "Saasfly",
   openGraph: {
     type: "website",
     locale: "en_US",

@@ -18,7 +18,7 @@ const config = {
     "^(next/(.*)$)|^(next$)",
     "<THIRD_PARTY_MODULES>",
     "",
-    "^@headstarter-capstone-project_waiting-list/(.*)$",
+    "^@saasfly/(.*)$",
     "",
     "^~/",
     "^[../]",

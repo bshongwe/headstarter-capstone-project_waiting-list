@@ -8,7 +8,7 @@ import React, {
   useState,
 } from "react";
 
-import { cn } from "@headstarter-capstone-project_waiting-list/ui";
+import { cn } from "@saasfly/ui";
 
 const MouseEnterContext = createContext<
   [boolean, React.Dispatch<React.SetStateAction<boolean>>] | undefined

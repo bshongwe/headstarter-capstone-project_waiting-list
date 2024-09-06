@@ -5,8 +5,8 @@ import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
 import { useTheme } from "next-themes";
 
-import { cn } from "@headstarter-capstone-project_waiting-list/ui";
-import * as Icons from "@headstarter-capstone-project_waiting-list/ui/icons";
+import { cn } from "@saasfly/ui";
+import * as Icons from "@saasfly/ui/icons";
 
 import { MobileNav } from "~/components/mobile-nav";
 import type { MainNavItem } from "~/types";
@@ -32,7 +32,7 @@ export function MainNav({ items, children }: MainNavProps) {
     <div className="flex items-center justify-between">
       <div className="flex items-center space-x-4">
         <Link href="/" className="hidden items-center space-x-2 md:flex">
-          <Icons.Bunny-Ai className="h-8 w-8" fill={logoColor} />
+          <Icons.Saasfly className="h-8 w-8" fill={logoColor} />
         </Link>
         {items?.length ? (
           <nav className="hidden space-x-6 md:flex">

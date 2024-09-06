@@ -7,7 +7,7 @@ import "./src/env.mjs";
 const config = {
   reactStrictMode: true,
   /** Enables hot reloading for local packages without a build step */
-  transpilePackages: ["@headstarter-capstone-project_waiting-list/common", "@headstarter-capstone-project_waiting-list/ui"],
+  transpilePackages: ["@saasfly/common", "@saasfly/ui"],
   pageExtensions: ["ts", "tsx"],
   /** We already do linting and typechecking as separate tasks in CI */
   eslint: { ignoreDuringBuilds: true },

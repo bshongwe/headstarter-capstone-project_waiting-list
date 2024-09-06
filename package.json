@@ -1,5 +1,5 @@
 {
-  "name": "bunny-ai",
+  "name": "nextjs-template",
   "private": true,
   "scripts": {
     "build": "turbo build ",
@@ -25,7 +25,7 @@
   "engines": {
     "node": ">=18"
   },
-  "prettier": "@headstarter-capstone-project_waiting-list/prettier-config",
+  "prettier": "@saasfly/prettier-config",
   "workspaces": [
     "apps/*",
     "packages/*",

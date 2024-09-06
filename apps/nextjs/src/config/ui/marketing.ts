@@ -3,7 +3,7 @@ export const getMarketingConfig = () => {
     mainNav: [
       {
         title: "Bunny-Ai",
-        href: `https://github.com/bshongwe/headstarter-capstone-project_waiting-list`,
+        href: `https://github.com/bshongwe`,
       },
     ],
   };

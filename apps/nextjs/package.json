@@ -1,5 +1,5 @@
 {
-  "name": "@headstarter-capstone-project_waiting-list/nextjs",
+  "name": "@saasfly/nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -35,10 +35,10 @@
   },
   "devDependencies": {
     "vercel": "34.1.1",
-    "@headstarter-capstone-project_waiting-list/eslint-config": "workspace:*",
-    "@headstarter-capstone-project_waiting-list/prettier-config": "workspace:*",
-    "@headstarter-capstone-project_waiting-list/tailwind-config": "workspace:*",
-    "@headstarter-capstone-project_waiting-list/typescript-config": "workspace:*",
+    "@saasfly/eslint-config": "workspace:*",
+    "@saasfly/prettier-config": "workspace:*",
+    "@saasfly/tailwind-config": "workspace:*",
+    "@saasfly/typescript-config": "workspace:*",
     "@types/negotiator": "0.6.3",
     "@types/node": "20.12.7",
     "@types/react": "18.2.77",
@@ -53,10 +53,10 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@headstarter-capstone-project_waiting-list/eslint-config/base",
-      "@headstarter-capstone-project_waiting-list/eslint-config/nextjs",
-      "@headstarter-capstone-project_waiting-list/eslint-config/react"
+      "@saasfly/eslint-config/base",
+      "@saasfly/eslint-config/nextjs",
+      "@saasfly/eslint-config/react"
     ]
   },
-  "prettier": "@headstarter-capstone-project_waiting-list/prettier-config"
+  "prettier": "@saasfly/prettier-config"
 }

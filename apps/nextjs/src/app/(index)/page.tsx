@@ -1,5 +1,5 @@
 "use client";
-import { BackgroundBeams } from "@headstarter-capstone-project_waiting-list/ui/background-beams";
+import { BackgroundBeams } from "@saasfly/ui/background-beams";
 import { useState } from "react";
 import { env } from "~/env.mjs";
 
@@ -24,7 +24,7 @@ export default function IndexPage() {
                 <div className="mb-auto"></div>
                 <div className="py-12 lg:py-16">
                     <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-blue-500">
-                        🔥 Bunny-Ai is your buddy!
+                        🔥 The hottest Ai of this nature around!
                     </p>
                     <h1 className="mb-6 text-4xl font-bold lg:text-5xl">
                         Join The Waitlist for{" "}
@@ -34,8 +34,8 @@ export default function IndexPage() {
                         Today!
                     </h1>
                     <p className="mx-auto mb-8 max-w-3xl text-lg text-gray-600">
-                        Explore our app and all its updates as soon as it is released. Be part
-                        of our growing Bunny-Ai community today. Signup below.
+                        Explore your Ai buddy as soon as we release it or after new updates, upgrades
+                        or any Buddy-Ai news. Sign up for the wait list now and stand a be drafted to win goodies!
                     </p>
                     <form
                         action={env.NEXT_PUBLIC_GOOGLE_FORM_URL}

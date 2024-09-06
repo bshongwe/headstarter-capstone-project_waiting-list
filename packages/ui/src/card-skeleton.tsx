@@ -1,5 +1,5 @@
-import { Card, CardContent, CardFooter, CardHeader } from "@headstarter-capstone-project_waiting-list/ui/card";
-import { Skeleton } from "@headstarter-capstone-project_waiting-list/ui/skeleton";
+import { Card, CardContent, CardFooter, CardHeader } from "@saasfly/ui/card";
+import { Skeleton } from "@saasfly/ui/skeleton";
 
 export function CardSkeleton() {
   return (

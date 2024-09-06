@@ -1,7 +1,7 @@
 import * as React from "react";
 
-import { cn } from "@headstarter-capstone-project_waiting-list/ui";
-import * as Icons from "@headstarter-capstone-project_waiting-list/ui/icons";
+import { cn } from "@saasfly/ui";
+import * as Icons from "@saasfly/ui/icons";
 
 import { ModeToggle } from "~/components/mode-toggle";
 
