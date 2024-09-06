@@ -1,8 +1,14 @@
-name = "waitlist"
+name = "my-worker"
 type = "javascript"
 
 account_id = "858123eef97c7fb081583b22ce34e7e1"
 workers_dev = true
+main = "./worker.js"
+
+# Custom domain route configuration
+routes = [
+  { pattern = "https://waitlist.bunny-ai.workers.dev/*" }
+]
 
 # Add your Cloudflare zone ID and route if you plan to deploy to a specific domain:
 # zone_id = "YOUR_ZONE_ID"
