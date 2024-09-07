@@ -17,12 +17,12 @@ export interface SubscriptionPlan {
 
 export const pricingData: SubscriptionPlan[] = [
   {
-    title: "Free",
+    title: "Starter",
     description: "For Beginners",
     benefits: [
-      "Up to 50 monthly posts",
-      "No analytics and reporting",
-      "Access to standard prompts",
+      "Up to 100 monthly posts",
+      "Basic analytics and reporting",
+      "Access to standard templates",
     ],
     limitations: [
       "No priority access to new features.",
@@ -40,14 +40,14 @@ export const pricingData: SubscriptionPlan[] = [
     },
   },
   {
-    title: "Bunny-Ai Lite",
+    title: "Pro",
     description: "Unlock Advanced Features",
     benefits: [
       "Up to 500 monthly posts",
-      "Basic analytics and reporting",
-      "Limited access to advanced prompts",
-      "Basic customer support",
-      "Limited access to exclusive webinars and training.",
+      "Advanced analytics and reporting",
+      "Access to business templates",
+      "Priority customer support",
+      "Exclusive webinars and training.",
     ],
     limitations: [
       "No custom branding",
@@ -65,12 +65,12 @@ export const pricingData: SubscriptionPlan[] = [
     },
   },
   {
-    title: "Bunny-Ai Premium",
+    title: "Business",
     description: "For Power Users",
     benefits: [
-      "Up to 5 000 monthly posts",
-      "Advanced analytics and reporting",
-      "Access to 100 advanced prompts",
+      "Unlimited posts",
+      "Real-time analytics and reporting",
+      "Access to all templates, including custom branding",
       "24/7 business customer support",
       "Personalized onboarding and account management.",
     ],
@@ -78,28 +78,6 @@ export const pricingData: SubscriptionPlan[] = [
     prices: {
       monthly: 30,
       yearly: 300,
-    },
-    stripeIds: {
-      // @ts-ignore
-      monthly: env.NEXT_PUBLIC_STRIPE_PRO_YEARLY_PRICE_ID,
-      // @ts-ignore
-      yearly: env.NEXT_PUBLIC_STRIPE_BUSINESS_YEARLY_PRICE_ID,
-    },
-  },
-  {
-    title: "Bunny-Ai Platinum",
-    description: "For Elite & Exclusive Users",
-    benefits: [
-      "Unlimited monthly posts",
-      "Unlimited real-time analytics and reporting webinars",
-      "Unlimited analytics and reporting",
-      "24/7 business customer support",
-      "Personalized onboarding and account management.",
-    ],
-    limitations: [],
-    prices: {
-      monthly: 300,
-      yearly: 3000,
     },
     stripeIds: {
       // @ts-ignore

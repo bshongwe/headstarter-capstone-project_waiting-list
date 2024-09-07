@@ -50,3 +50,4 @@ bun.lockb
 
 .idea/
 
+.env

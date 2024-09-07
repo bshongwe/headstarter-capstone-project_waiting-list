@@ -24,7 +24,7 @@ export default function IndexPage() {
                 <div className="mb-auto"></div>
                 <div className="py-12 lg:py-16">
                     <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-blue-500">
-                        🔥 The hottest Ai of this nature around!
+                        🔥 An amazing Ai buddy this side of the millenium!
                     </p>
                     <h1 className="mb-6 text-4xl font-bold lg:text-5xl">
                         Join The Waitlist for{" "}
@@ -34,8 +34,8 @@ export default function IndexPage() {
                         Today!
                     </h1>
                     <p className="mx-auto mb-8 max-w-3xl text-lg text-gray-600">
-                        Explore your Ai buddy as soon as we release it or after new updates, upgrades
-                        or any Buddy-Ai news. Sign up for the wait list now and stand a be drafted to win goodies!
+                        Exploring artificial intelligence in more areas than just education. Join
+                        millions of users that are eager in using this cutting edge platform.
                     </p>
                     <form
                         action={env.NEXT_PUBLIC_GOOGLE_FORM_URL}
@@ -71,7 +71,7 @@ export default function IndexPage() {
                     </div>
                     <div className="relative z-10">
                         <a
-                            href="https://nextify.ltd"
+                            href="https://www.github.com.bshongwe"
                             className="text-sm font-semibold text-blue-500 hover:text-blue-600"
                         >
                             More Details →
