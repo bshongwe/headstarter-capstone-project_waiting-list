@@ -52,7 +52,7 @@ const Features = () => {
             <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
                 Check out{" "}
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                    your buddie's features
+                    your buddie features
                 </span>
             </h2>
 
