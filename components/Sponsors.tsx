@@ -7,28 +7,28 @@ interface SponsorProps {
 
 const sponsors: SponsorProps[] = [
     {
-        icon: <Icons.radar size={34} />,
-        name: "Sponsor 1",
+        icon: <Icons.gamification size={34} />,
+        name: "MTN-SA",
+    },
+    {
+        icon: <Icons.people size={34} />,
+        name: "JP Morgan Chase & Co.",
+    },
+    {
+        icon: <Icons.star size={34} />,
+        name: "UNICEF",
+    },
+    {
+        icon: <Icons.fire size={34} />,
+        name: "Alibaba",
+    },
+    {
+        icon: <Icons.twitter size={34} />,
+        name: "Space-X",
     },
     {
         icon: <Icons.radar size={34} />,
-        name: "Sponsor 2",
-    },
-    {
-        icon: <Icons.radar size={34} />,
-        name: "Sponsor 3",
-    },
-    {
-        icon: <Icons.radar size={34} />,
-        name: "Sponsor 4",
-    },
-    {
-        icon: <Icons.radar size={34} />,
-        name: "Sponsor 5",
-    },
-    {
-        icon: <Icons.radar size={34} />,
-        name: "Sponsor 6",
+        name: "anonymous",
     },
 ];
 

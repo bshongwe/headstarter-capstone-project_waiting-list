@@ -107,8 +107,8 @@ const Navbar = () => {
                                             }
                                         )}`}
                                     >
-                                        <Icons.github className="mr-2 h-4 w-4" />
-                                        GitHub
+                                        <Icons.google className="mr-2 h-4 w-4" />
+                                        Google
                                     </Link>
                                 </div>
                             </SheetContent>

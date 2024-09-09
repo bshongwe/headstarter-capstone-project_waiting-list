@@ -42,8 +42,8 @@ const Hero = () => {
                             variant: "outline",
                         })}`}
                     >
-                        GitHub
-                        <Icons.github className="ml-2 h-4 w-4" />
+                        Google
+                        <Icons.google className="ml-2 h-4 w-4" />
                     </Link>
                 </div>
             </div>
