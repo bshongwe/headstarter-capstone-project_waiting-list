@@ -9,6 +9,7 @@ import CTA from "@/components/CTA";
 import Testimonials from "@/components/Testimonials";
 import Team from "@/components/Team";
 import Pricing from "@/components/Pricing";
+import Waitlist from "@/components/Waitlist";
 import Newsletter from "@/components/Newsletter";
 import FAQ from "@/components/FAQ";
 import OpenSource from "@/components/OpenSource";
@@ -29,6 +30,7 @@ export default function Home() {
             <Testimonials />
             <Team />
             <Pricing />
+            <Waitlist />
             <Newsletter />
             <FAQ />
             <OpenSource />
