@@ -5,7 +5,7 @@ import { Input } from "./ui/input";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
-const Newsletter = () => {
+const Waitlist = () => {
     const handleSubmit = (e: any) => {
         e.preventDefault();
     toast.success("Xclusive Bunny-AI waitlist request sent!", {
