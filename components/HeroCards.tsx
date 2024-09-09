@@ -31,12 +31,12 @@ export const HeroCards = () => {
                     </Avatar>
 
                     <div className="flex flex-col">
-                        <CardTitle className="text-lg">John Doe</CardTitle>
-                        <CardDescription>@john_doe</CardDescription>
+                        <CardTitle className="text-lg">Yasin</CardTitle>
+                        <CardDescription>@Yasin</CardDescription>
                     </div>
                 </CardHeader>
 
-                <CardContent>This app is phenomenal!</CardContent>
+                <CardContent>Bunny-AI is fantastic, man!</CardContent>
             </Card>
 
             {/* Team */}

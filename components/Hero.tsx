@@ -14,7 +14,7 @@ const Hero = () => {
                         <span className="inline bg-gradient-to-r from-[#F596D3] to-[#D247BF] text-transparent bg-clip-text">
                             Bunny-AI
                         </span>{" "}
-                        -
+                        ...
                     </h1>{" "}
                     more than just an{" "}
                     <h2 className="inline">
