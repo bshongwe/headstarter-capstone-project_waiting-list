@@ -27,11 +27,11 @@ export const HeroCards = () => {
                             alt=""
                             src="https://github.com/shadcn.png"
                         />
-                        <AvatarFallback>JD</AvatarFallback>
+                        <AvatarFallback>YE</AvatarFallback>
                     </Avatar>
 
                     <div className="flex flex-col">
-                        <CardTitle className="text-lg">Yasin</CardTitle>
+                        <CardTitle className="text-lg">Yasin Ehsan</CardTitle>
                         <CardDescription>@Yasin</CardDescription>
                     </div>
                 </CardHeader>
