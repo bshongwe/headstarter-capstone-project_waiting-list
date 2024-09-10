@@ -11,7 +11,7 @@ export default defineConfig({
     ],
     build: {
     outDir: 'build', // Netlify's publish directory
-    sourcemap: true, // Helps with debugging in production if needed
+    sourcemap: true, // Helps with debugging in production (if needed)
     minify: 'esbuild', // For fast minification
     rollupOptions: {
       output: {
