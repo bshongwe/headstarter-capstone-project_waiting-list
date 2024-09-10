@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://landing.bunny-ai.io
+
+# Sitemaps
+Sitemap: https://landing.bunny-ai.io/sitemap.xml
