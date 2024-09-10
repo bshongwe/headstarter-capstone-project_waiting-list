@@ -31,7 +31,7 @@ const Contact = () => {
                         not hesitate to reach out. We would love to hear from you!
                     </span>
                     <span className='block lg:hidden'>
-                        bunny-Ai
+                        Boniface Munga | Salman Qurban | Ernest Shongwe
                     </span>
                 </p>
                 <div className='flex justify-center lg:justify-start'>
