@@ -1,5 +1,5 @@
 /** @type {import('remix-sitemap').Config} */
 export default {
-    siteUrl: 'https://landing.bunny-ai.io',
+    siteUrl: 'https://bunny-ai.netlify.app',
     generateRobotsTxt: true,
 }

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://landing.bunny-ai.io
+Host: https://bunny-ai.netlify.app
 
 # Sitemaps
-Sitemap: https://landing.bunny-ai.io/sitemap.xml
+Sitemap: https://bunny-ai.netlify.app/sitemap.xml
