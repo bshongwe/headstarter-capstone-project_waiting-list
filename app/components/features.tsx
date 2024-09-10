@@ -46,7 +46,7 @@ const featuresData: FeatureCardProps[] = [
     },
     {
         title: '24/7 Support',
-        description: 'Our support team is available 24/7 to help you navigate or troubleshoot Bunny-Ai.',
+        description: 'Our support team is available 24/7 to help you navigate or troubleshoot Bunny-Ai. Use the contact details provided.',
         icon: <MessagesSquareIcon size={28} className='text-purple-500' />,
         backgroundColor: 'from-purple-500/20 to-purple-500/5',
     },
