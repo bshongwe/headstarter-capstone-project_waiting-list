@@ -14,25 +14,24 @@ const Contact = () => {
                 <div>
                     <h1 className='mt-4 scroll-m-20 text-center font-inter text-4xl font-extrabold tracking-tight lg:text-left lg:text-5xl'>
                         <span className='bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent'>
-                            Get{' '}
+                            Contact{' '}
                         </span>
                         <span className='bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent'>
-                            In{' '}
+                            Us{' '}
                         </span>
                         <span className='bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent'>
-                            Touch
+                            Today
                         </span>
                     </h1>
                 </div>
                 <p className='text-center text-lg text-muted-foreground lg:text-left'>
                     <span className='hidden lg:block'>
                         If you have any questions, suggestions, or would like to
-                        discuss potential collaborations, please don't hesitate
-                        to reach out. I'd love to hear from you!
+                        report bug fixes to any of Bunny-Ai features, please do
+                        not hesitate to reach out. We would love to hear from you!
                     </span>
                     <span className='block lg:hidden'>
-                        Questions, ideas, or collaborations? Reach out—I'm all
-                        ears!
+                        bunny-Ai
                     </span>
                 </p>
                 <div className='flex justify-center lg:justify-start'>
@@ -44,7 +43,7 @@ const Contact = () => {
                             rel='noopener noreferrer'
                         >
                             <TwitterIcon className='h-6 w-6 text-primary' />{' '}
-                            Bunny-Ai
+                            bunny-Ai
                         </a>
                         <a
                             href='https://www.linkedin.com/'
@@ -53,7 +52,7 @@ const Contact = () => {
                             rel='noopener noreferrer'
                         >
                             <LinkedinIcon className='h-6 w-6 text-primary' />{' '}
-                            <span>Bunny-Ai</span>
+                            <span>bunny-Ai</span>
                         </a>
                         <span className='flex items-center gap-2'>
                             <Discord className='h-6 w-6 fill-primary' />{' '}
@@ -77,7 +76,7 @@ const Contact = () => {
                         required
                         type='text'
                         id='name'
-                        placeholder='John Doe'
+                        placeholder='My Name'
                         name='fullname'
                         className='w-full'
                     />
@@ -92,7 +91,7 @@ const Contact = () => {
                     <Input
                         required
                         type='email'
-                        placeholder='john.doe@example.com'
+                        placeholder='user.name@email.com'
                         name='contact-email'
                         id='contact-email'
                         className='w-full'
@@ -107,7 +106,7 @@ const Contact = () => {
                     </Label>
                     <Textarea
                         required
-                        placeholder='Your message here...'
+                        placeholder='Write your message here...'
                         id='message'
                         name='message'
                     />

@@ -58,7 +58,7 @@ const Cms = () => {
     return (
         <div className='mx-5'>
             <p className='mb-8 text-center text-sm font-medium text-muted-foreground'>
-                INTEGRATED WITH 10+ CONTENT MANAGEMENT SYSTEMS
+                INTEGRATED WITH 10+ OF THE BEST CONTENT MANAGEMENT SYSTEMS
             </p>
             <div className='mx-auto flex flex-wrap items-center justify-center gap-8 fill-foreground lg:gap-x-14'>
                 {cms.map((item) => (
