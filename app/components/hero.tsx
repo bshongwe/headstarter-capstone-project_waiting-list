@@ -126,7 +126,7 @@ const Hero = () => {
                 )}
                 {!state.succeeded && (
                     <p className='w-full text-center text-sm text-muted-foreground'>
-                        Join a waitlist of 1000+ members!
+                        Join a waitlist of 1 000+ members!
                     </p>
                 )}
                 {state.succeeded && (

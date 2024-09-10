@@ -60,7 +60,8 @@ const Contact = () => {
                         </span>
                         <a
                         href='https://github.com/'
-                        target='_blank'
+                            className='flex items-center gap-2'
+                            target='_blank'
                         rel='noreferrer'
                         >
                             <GithubIcon className='h-6 w-6 text-primary' />{' '}
