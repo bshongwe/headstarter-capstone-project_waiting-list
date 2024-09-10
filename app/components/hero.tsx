@@ -67,8 +67,8 @@ const Hero = () => {
                 transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }}
                 className='text-base text-muted-foreground lg:text-lg'
             >
-                Welcome to <span className='text-primary'>Bunny-AI!</span>,
-                </br> Your gateway to streamlined operations, innovation, enhanced
+                Welcome to <span className='text-primary'>Bunny-AI</span>.
+                Your gateway to streamlined operations, innovation, enhanced
                 productivity & limitless growth opportunities.{' '}
                 <span className='hidden lg:block'>
                     Discover a brighter future with us.
