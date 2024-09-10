@@ -59,10 +59,10 @@ const Contact = () => {
                             <span>bunny-Ai</span>
                         </span>
                         <a
-                        href='https://github.com/'
+                            href='https://www.github.com/'
                             className='flex items-center gap-2'
                             target='_blank'
-                        rel='noreferrer'
+                            rel='noopener noreferrer'
                         >
                             <GithubIcon className='h-6 w-6 text-primary' />{' '}
                             <span>bunny-Ai</span>
