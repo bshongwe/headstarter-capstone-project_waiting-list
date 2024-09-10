@@ -57,7 +57,7 @@ const Contact = () => {
                         </a>
                         <span className='flex items-center gap-2'>
                             <Discord className='h-6 w-6 fill-primary' />{' '}
-                            <span>stormynight9</span>
+                            <span>bunny-ai</span>
                         </span>
                     </div>
                 </div>
