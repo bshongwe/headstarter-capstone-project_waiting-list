@@ -11,7 +11,7 @@ import Pricing from '~/components/pricing'
 
 export const meta: MetaFunction = () => {
     return [
-        { title: 'Bunny-AI' },
+        { title: 'Bunny-Ai' },
         {
             name: 'description',
             content:
@@ -28,7 +28,7 @@ export const meta: MetaFunction = () => {
         },
         {
             name: 'author',
-            content: 'Bunny-AI',
+            content: 'Bunny-Ai',
         },
         {
             tagName: 'link',
@@ -72,21 +72,21 @@ export const meta: MetaFunction = () => {
         {
             property: 'og:title',
             content:
-                'Bunny-AI - Streamline Operations and Boost Productivity',
+                'Bunny-Ai - Streamline Operations and Boost Productivity',
         },
         {
             property: 'og:description',
             content:
-                'Discover how Bunny-AI can help you streamline operations, make data-driven decisions, and drive business growth. Experience the power of seamless workflows and efficiency tools.',
+                'Discover how Bunny-Ai can help you streamline operations, make data-driven decisions, and drive business growth. Experience the power of seamless workflows and efficiency tools.',
         },
         {
             property: 'og:image',
             name: 'og:image',
-            content: 'https://saasstellar.nader.run/saasstellar-og-image.png',
+            content: 'https://github.com/bshongwe/headstarter-capstone-project_waiting-list/blob/main/public/mstile-150x150.png',
         },
         {
             property: 'og:url',
-            content: 'https://saasstellar.nader.run/',
+            content: 'https://headstarter-capstone-project-waiting-list-ozs8.vercel.app/',
         },
         {
             property: 'og:type',
@@ -99,24 +99,24 @@ export const meta: MetaFunction = () => {
         {
             name: 'twitter:title',
             content:
-                'Bunny-AI - Streamline Operations and Boost Productivity',
+                'Bunny-Ai - Streamline Operations and Boost Productivity',
         },
         {
             name: 'twitter:description',
             content:
-                'Discover how Bunny-AI can help you streamline operations, make data-driven decisions, and drive business growth. Experience the power of seamless workflows and efficiency tools.',
+                'Discover how Bunny-Ai can help you streamline operations, make data-driven decisions, and drive business growth. Experience the power of seamless workflows and efficiency tools.',
         },
         {
             name: 'twitter:image',
-            content: 'https://saasstellar.nader.run/saasstellar-og-image.png',
+            content: 'https://github.com/bshongwe/headstarter-capstone-project_waiting-list/blob/main/public/mstile-150x150.png',
         },
         {
             name: 'twitter:url',
-            content: 'https://saasstellar.nader.run/',
+            content: 'https://headstarter-capstone-project-waiting-list-ozs8.vercel.app/',
         },
         {
             name: 'twitter:domain',
-            content: 'saasstellar.nader.run',
+            content: 'https://headstarter-capstone-project-waiting-list-ozs8.vercel.app/',
         },
     ]
 }

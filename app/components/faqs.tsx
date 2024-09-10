@@ -12,23 +12,23 @@ import { buttonVariants } from './ui/button'
 const faqs = [
     {
         question:
-            'Can I integrate Bunny-AI with my existing business tools?',
-        answer: 'Yes, Bunny-AI supports integration with over 10 content management systems and other third-party tools.',
+            'Can I integrate Bunny-Ai with my existing business tools?',
+        answer: 'Yes, Bunny-Ai supports integration with over 10 content management systems and other third-party tools.',
     },
     {
         question:
             'Are there any additional costs beyond the subscription fees?',
-        answer: "No, Bunny-AI's pricing plans include all core features and support. Additional costs may apply only if businesses opt for optional training, custom development, or premium support packages.",
+        answer: "No, Bunny-Ai's pricing plans include all core features and support. Additional costs may apply only if businesses opt for optional training, custom development, or premium support packages.",
     },
     {
         question:
             'Can I switch between pricing plans as my business needs change?',
-        answer: "Yes, businesses can upgrade or downgrade between Bunny-AI's pricing plans at any time to better suit evolving operational requirements and budget constraints.",
+        answer: "Yes, businesses can upgrade or downgrade between Bunny-Ai's pricing plans at any time to better suit evolving operational requirements and budget constraints.",
     },
     {
         question:
-            'Does Bunny-AI offer a trial period for testing its features?',
-        answer: 'Yes, Bunny-AI offers a trial period for potential users to explore its features and functionalities before committing to a subscription plan.',
+            'Does Bunny-Ai offer a trial period for testing its features?',
+        answer: 'Yes, Bunny-Ai offers a trial period for potential users to explore its features and functionalities before committing to a subscription plan.',
     },
 ]
 

@@ -44,7 +44,7 @@ const Contact = () => {
                             rel='noopener noreferrer'
                         >
                             <TwitterIcon className='h-6 w-6 text-primary' />{' '}
-                            Bunny-AI
+                            Bunny-Ai
                         </a>
                         <a
                             href='https://www.linkedin.com/'
@@ -53,7 +53,7 @@ const Contact = () => {
                             rel='noopener noreferrer'
                         >
                             <LinkedinIcon className='h-6 w-6 text-primary' />{' '}
-                            <span>Bunny-AI</span>
+                            <span>Bunny-Ai</span>
                         </a>
                         <span className='flex items-center gap-2'>
                             <Discord className='h-6 w-6 fill-primary' />{' '}

@@ -40,7 +40,7 @@ const Navbar = () => {
                         )}
                     />
                     <span className='hidden text-lg font-semibold md:block'>
-                        Bunny-AI
+                        Bunny-Ai
                     </span>
                 </Link>
                 <div className='flex items-center gap-5'>
