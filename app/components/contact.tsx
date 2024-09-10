@@ -38,22 +38,22 @@ const Contact = () => {
                 <div className='flex justify-center lg:justify-start'>
                     <div className='flex flex-col gap-4 lg:items-start'>
                         <a
-                            href='https://twitter.com/NaderFerjani'
+                            href='https://twitter.com/'
                             className='inline-flex gap-2'
                             target='_blank'
                             rel='noopener noreferrer'
                         >
                             <TwitterIcon className='h-6 w-6 text-primary' />{' '}
-                            @NaderFerjani
+                            Bunny-AI
                         </a>
                         <a
-                            href='https://www.linkedin.com/in/nader-ferjani/'
+                            href='https://www.linkedin.com/'
                             className='flex items-center gap-2'
                             target='_blank'
                             rel='noopener noreferrer'
                         >
                             <LinkedinIcon className='h-6 w-6 text-primary' />{' '}
-                            <span>nader-ferjani</span>
+                            <span>Bunny-AI</span>
                         </a>
                         <span className='flex items-center gap-2'>
                             <Discord className='h-6 w-6 fill-primary' />{' '}

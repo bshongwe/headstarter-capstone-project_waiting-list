@@ -28,7 +28,7 @@ export const meta: MetaFunction = () => {
         },
         {
             name: 'author',
-            content: 'Nader Ferjani',
+            content: 'Bunny-AI',
         },
         {
             tagName: 'link',
