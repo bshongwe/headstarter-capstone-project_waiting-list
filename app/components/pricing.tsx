@@ -196,7 +196,7 @@ const Pricing = () => {
                                 <span>Advanced security features</span>
                             </li>
                         </ul>
-                        <Button className='mt-8 w-full' variant={'outline'}>
+                        <Button href='#contact' className='mt-8 w-full' variant={'outline'}>
                             Contact us
                         </Button>
                     </div>
