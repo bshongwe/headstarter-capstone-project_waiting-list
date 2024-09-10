@@ -185,12 +185,6 @@ const Navbar = () => {
                                 <Icons.google className="mr-2 h-4 w-4" />
                                 Google
                             </Link>
-
-                            <ModeToggle />
-                        </div>
-                    </div>
-                    <div className="hidden md:flex gap-2">
-                        <div className="flex space-x-2">
                             <Link
                                 href="https://github.com/bshongwe"
                                 target="_blank"
