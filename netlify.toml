@@ -13,10 +13,9 @@
   status = 301
   force = true
 
-[headers]
-  [[headers.rules]]
-    for = "/*"
-    [headers]
-      cache-control = "public, max-age=31536000, immutable"
-      content-encoding = "br"
-      content-encoding = "gzip"
+[[headers]]
+  for = "/*"
+  [headers]
+    cache-control = "public, max-age=31536000, immutable"
+    content-encoding = "br"
+    content-encoding = "gzip"
