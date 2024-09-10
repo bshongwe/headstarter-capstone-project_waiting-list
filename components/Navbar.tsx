@@ -111,9 +111,47 @@ const Navbar = () => {
                                         Google
                                     </Link>
                                 </div>
+                                <div className="flex flex-col justify-center items-start space-y-3 mt-6">
+                                    <ul className="flex flex-col space-y-3">
+                                        {routeList.map(
+                                            ({ href, label }: RouteProps) => (
+                                                <li key={label}>
+                                                    <Link
+                                                        key={label}
+                                                        href={href}
+                                                        onClick={() =>
+                                                            setIsOpen(false)
+                                                        }
+                                                        className={buttonVariants(
+                                                            {
+                                                                variant:
+                                                                    "ghost",
+                                                            }
+                                                        )}
+                                                    >
+                                                        {label}
+                                                    </Link>
+                                                </li>
+                                            )
+                                        )}
+                                    </ul>
+                                    <Link
+                                        href="https://github.com/bshongwe"
+                                        target="_blank"
+                                        className={`w-[110px] border ${buttonVariants(
+                                            {
+                                                variant: "secondary",
+                                            }
+                                        )}`}
+                                    >
+                                        <Icons.dashboard className="mr-2 h-4 w-4" />
+                                        Profile
+                                    </Link>
+                                </div>
                             </SheetContent>
                         </Sheet>
                     </div>
+                    
 
                     {/* desktop */}
                     <div className="hidden md:flex gap-2">
@@ -146,6 +184,22 @@ const Navbar = () => {
                             >
                                 <Icons.google className="mr-2 h-4 w-4" />
                                 Google
+                            </Link>
+
+                            <ModeToggle />
+                        </div>
+                    </div>
+                    <div className="hidden md:flex gap-2">
+                        <div className="flex space-x-2">
+                            <Link
+                                href="https://github.com/bshongwe"
+                                target="_blank"
+                                className={`border ${buttonVariants({
+                                    variant: "secondary",
+                                })}`}
+                            >
+                                <Icons.dashboard className="mr-2 h-4 w-4" />
+                                Profile
                             </Link>
 
                             <ModeToggle />

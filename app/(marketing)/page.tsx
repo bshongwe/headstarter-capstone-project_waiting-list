@@ -21,6 +21,7 @@ export default function Home() {
         <>
             <Navbar />
             <Hero />
+            <Waitlist />
             <Sponsors />
             <About />
             <HowWorks />
@@ -30,7 +31,6 @@ export default function Home() {
             <Testimonials />
             <Team />
             <Pricing />
-            <Waitlist />
             <Newsletter />
             <FAQ />
             <OpenSource />
