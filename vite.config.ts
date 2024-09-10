@@ -9,4 +9,23 @@ export default defineConfig({
         }),
         tsconfigPaths(),
     ],
+    build: {
+    outDir: 'build', // Netlify's publish directory
+    sourcemap: true, // Helps with debugging in production if needed
+    minify: 'esbuild', // For fast minification
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          // Optional: Defines manual chunks for optimization if necessary
+          if (id.includes('node_modules')) {
+            return 'vendor'
+          }
+        },
+      },
+    },
+  },
+  server: {
+    port: 3000, // Optional: Customize the dev server port if needed
+    open: true, // Automatically opens app in browser when server starts
+  },
 })
