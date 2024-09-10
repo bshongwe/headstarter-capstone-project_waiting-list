@@ -43,7 +43,7 @@ const Contact = () => {
                             rel='noopener noreferrer'
                         >
                             <TwitterIcon className='h-6 w-6 text-primary' />{' '}
-                            bunny-Ai
+                            <span>bunny-Ai</span>
                         </a>
                         <a
                             href='https://www.linkedin.com/'
@@ -56,14 +56,12 @@ const Contact = () => {
                         </a>
                         <span className='flex items-center gap-2'>
                             <Discord className='h-6 w-6 fill-primary' />{' '}
-                            <span>bunny-ai</span>
+                            <span>bunny-Ai</span>
                         </span>
                         <a
                         href='https://github.com/'
                         target='_blank'
                         rel='noreferrer'
-                        className='inline-flex h-10 w-10 items-center justify-center rounded-md border border-input bg-background/30 text-sm font-medium ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:border-white/10'
-                        aria-label='my github'
                         >
                             <GithubIcon className='h-6 w-6 text-primary' />{' '}
                             <span>bunny-Ai</span>
@@ -86,7 +84,7 @@ const Contact = () => {
                         required
                         type='text'
                         id='name'
-                        placeholder='My Name'
+                        placeholder='your name'
                         name='fullname'
                         className='w-full'
                     />
