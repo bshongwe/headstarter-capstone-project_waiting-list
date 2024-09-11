@@ -98,7 +98,7 @@ const Pricing = () => {
                                 <span>Email support</span>
                             </li>
                         </ul>
-                        <Button href='https://headstarter-chat-bot.vercel.app/' className='mt-8 w-full' variant={'outline'}>
+                        <Button href='https://headstarter-chat-bot.vercel.app/' target='_blank' rel='noreferrer' className='mt-8 w-full' variant={'outline'}>
                             Get started
                         </Button>
                     </div>
